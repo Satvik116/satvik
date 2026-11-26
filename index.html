@@ -1,0 +1,469 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AVENOR | Elevate Your Everyday</title>
+    <meta name="description" content="Discover AVENOR's curated collection of timeless fashion and luxury accessories.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <span class="logo-symbol">A</span> AVENOR
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+
+        <a href="index.html">Home</a>
+
+        <div class="nav-item">
+            <a href="categories.html">Categories</a>
+
+            <div class="mega-menu">
+
+                <div>
+                    <h3>Explore Collections</h3>
+                    <a href="categories.html">All Collections</a>
+                    <a href="categories.html?category=clothing">Clothing</a>
+                    <a href="categories.html?category=accessories">Accessories</a>
+                </div>
+
+                <div>
+                    <h3>Discover AVENOR</h3>
+                    <a href="#new-arrivals">New Arrivals</a>
+                    <a href="#collections">Featured Collections</a>
+                    <a href="#about">Our Story</a>
+                </div>
+
+                <div class="menu-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600"
+                        alt="AVENOR fashion collection"
+                    >
+                    <span>THE NEW EDIT</span>
+                </div>
+
+            </div>
+        </div>
+
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="categories.html?category=clothing">Clothing</a>
+        <a href="categories.html?category=accessories">Accessories</a>
+        <a href="#about">About</a>
+
+    </nav>
+
+    <div class="nav-actions">
+
+        <button class="search-btn" id="searchToggle" aria-label="Search">
+            ⌕
+        </button>
+
+        <button class="cart-btn" id="cartToggle">
+            Bag (<span id="cart-count">0</span>)
+        </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= SEARCH ================= -->
+
+<div class="search-panel" id="searchPanel">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search clothing and accessories..."
+        aria-label="Search products"
+    >
+
+    <a href="categories.html">VIEW ALL PRODUCTS →</a>
+
+</div>
+
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            THE NEW STANDARD OF STYLE
+        </p>
+
+        <h1>
+            Elegance is<br>
+            <i>an attitude.</i>
+        </h1>
+
+        <p>
+            Discover a collection designed for those who appreciate
+            timeless fashion, refined details and the art of everyday living.
+        </p>
+
+        <a href="categories.html" class="primary-btn">
+            EXPLORE COLLECTION
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BRAND INTRODUCTION ================= -->
+
+<section class="intro" id="about">
+
+    <p class="eyebrow">
+        WELCOME TO AVENOR
+    </p>
+
+    <h2>
+        Where timeless design meets<br>
+        modern expression.
+    </h2>
+
+    <p>
+        Thoughtfully selected fashion and lifestyle essentials
+        for a more refined everyday experience.
+        We believe true elegance never needs to announce itself.
+    </p>
+
+</section>
+
+
+<!-- ================= NEW ARRIVALS ================= -->
+
+<section class="products-section" id="new-arrivals">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="eyebrow">CURATED FOR YOU</p>
+            <h2>New Arrivals</h2>
+        </div>
+
+        <a href="categories.html">
+            VIEW ALL →
+        </a>
+
+    </div>
+
+    <div class="product-grid" id="productGrid">
+
+        <!-- Products generated through script.js -->
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURED COLLECTION ================= -->
+
+<section class="collection-banner" id="collections">
+
+    <div>
+
+        <p class="eyebrow">
+            THE AVENOR COLLECTION
+        </p>
+
+        <h2>
+            Less, but<br>
+            better.
+        </h2>
+
+        <a href="categories.html" class="primary-btn">
+            DISCOVER MORE
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SHOP EVERYTHING ================= -->
+
+<section class="products-section" id="shop">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="eyebrow">
+                EXPLORE OUR SELECTION
+            </p>
+
+            <h2>Shop Everything</h2>
+        </div>
+
+        <a href="categories.html">
+            EXPLORE ALL →
+        </a>
+
+    </div>
+
+    <div class="product-grid" id="allProducts">
+
+        <!-- Products generated through script.js -->
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORY SHORTCUTS ================= -->
+
+<section class="category-shortcuts">
+
+    <div class="category-shortcut-heading">
+
+        <p class="eyebrow">FIND YOUR SIGNATURE STYLE</p>
+
+        <h2>
+            Explore Our Collections
+        </h2>
+
+    </div>
+
+    <div class="category-shortcut-grid">
+
+        <a
+            href="categories.html?category=clothing"
+            class="shortcut-card"
+        >
+
+            <img
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900"
+                alt="Clothing collection"
+            >
+
+            <div>
+                <p>THE WARDROBE EDIT</p>
+                <h3>Clothing</h3>
+                <span>EXPLORE →</span>
+            </div>
+
+        </a>
+
+        <a
+            href="categories.html?category=accessories"
+            class="shortcut-card"
+        >
+
+            <img
+                src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=900"
+                alt="Accessories collection"
+            >
+
+            <div>
+                <p>THE FINISHING TOUCH</p>
+                <h3>Accessories</h3>
+                <span>EXPLORE →</span>
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <p class="eyebrow">
+        STAY IN THE KNOW
+    </p>
+
+    <h2>
+        A little more AVENOR.
+    </h2>
+
+    <p>
+        Discover new collections, exclusive updates and inspiration.
+    </p>
+
+    <form id="newsletterForm">
+
+        <input
+            type="email"
+            placeholder="Your email address"
+            required
+        >
+
+        <button type="submit">
+            SUBSCRIBE →
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        AVENOR
+    </div>
+
+    <p>
+        Elevate your everyday.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="index.html">Home</a>
+
+        <a href="categories.html">Collections</a>
+
+        <a href="#about">About Us</a>
+
+        <a href="categories.html">Shop</a>
+
+        <a href="#newsletterForm">Contact</a>
+
+        <a href="#">Instagram</a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 AVENOR. All rights reserved.
+    </p>
+
+</footer>
+
+
+<!-- ================= SHOPPING BAG OVERLAY ================= -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+
+<!-- ================= SHOPPING BAG DRAWER ================= -->
+
+<aside class="cart-drawer" id="cartDrawer">
+
+    <div class="cart-header">
+
+        <h2>Your Shopping Bag</h2>
+
+        <button id="closeCart" aria-label="Close cart">
+            ✕
+        </button>
+
+    </div>
+
+    <div id="cartItems">
+
+        <p>Your shopping bag is empty.</p>
+
+    </div>
+
+    <div class="cart-bottom">
+
+        <h3>
+            Total: <span id="cartTotal">₹0</span>
+        </h3>
+
+        <button
+            id="checkoutBtn"
+            class="primary-btn"
+            type="button"
+        >
+            PROCEED TO CHECKOUT
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= CHECKOUT MODAL ================= -->
+
+<div class="checkout-modal" id="checkoutModal">
+
+    <div class="checkout-box">
+
+        <button
+            id="closeCheckout"
+            class="close-modal"
+            aria-label="Close checkout"
+        >
+            ✕
+        </button>
+
+        <h2>Checkout</h2>
+
+        <p>
+            Complete your details below to place a demonstration order.
+            No real payment will be processed.
+        </p>
+
+        <form id="checkoutForm">
+
+            <input
+                type="text"
+                placeholder="Full Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Email Address"
+                required
+            >
+
+            <input
+                type="tel"
+                placeholder="Phone Number"
+                required
+            >
+
+            <textarea
+                placeholder="Delivery Address"
+                required
+            ></textarea>
+
+            <button
+                type="submit"
+                class="primary-btn"
+            >
+                PLACE DEMO ORDER
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
